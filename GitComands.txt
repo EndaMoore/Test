@@ -33,6 +33,14 @@ git log —-graph —-oneline master coins // log for commits in master branch a
 git checkout -b new_branch_name // checkout and create new branch
 
 
+How to merge two branches
+
+git checkout master // get back to master branch
+git merge master coins
+
+git show // will show the diff between the commit and its parent without knowing the patent id
+
+git branch -d coins
 
 
 
