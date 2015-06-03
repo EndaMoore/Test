@@ -1,0 +1,21 @@
+git help
+git log
+git status
+
+git init 			//Initialised empty Git repository
+
+Add to stage
+
+Git add + list of files to be added	 //add the list of files
+Git add --all 			//Add all files
+Git add *.txt 			//add all txt files in current directory
+Git add docs/*.txt 		//Add all files in docs directory
+Git add docs/ 			//Add all files in docs directory
+Git add "*.txt" 		//Add all txt files in the whole project
+ 
+Next
+Git commit -m "comment"
+
+git diff // compare files 
+git diff id1 id2 compare file id1 to file id2
+git diff —staged
