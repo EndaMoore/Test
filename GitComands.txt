@@ -2,6 +2,8 @@ git help
 git log
 git status
 
+q  //quits out back to command line prompt
+
 git init 			//Initialised empty Git repository
 
 Add to stage
@@ -19,3 +21,18 @@ Git commit -m "comment"
 git diff // compare files 
 git diff id1 id2 compare file id1 to file id2
 git diff —staged
+
+
+Git Branches //how to branch with git
+
+git branch easy-mode //new name of branch
+git checkout easy-mode //switched to branch easy-mode
+
+git log —-graph —-oneline master coins // log for commits in master branch and coins branch
+
+git checkout -b new_branch_name // checkout and create new branch
+
+
+
+
+
