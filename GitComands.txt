@@ -42,6 +42,18 @@ git show // will show the diff between the commit and its parent without knowing
 
 git branch -d coins
 
-git commit -a // shows file wit conflicts 
+git commit -a // shows file wit conflicts
 
 
+git remote // commands used with Github
+
+git config --global user.name "EndaMoore"
+git config --global user.email "enda.moore@student.ncilr.ie"
+
+git remote add origin https://github.com/EndaMoore/Test.git
+
+git remote -v
+
+git push origin master //this will push all files to Github username and password required 
+
+git pull origin master // get repo from Github
