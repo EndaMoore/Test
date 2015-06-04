@@ -42,5 +42,6 @@ git show // will show the diff between the commit and its parent without knowing
 
 git branch -d coins
 
+git commit -a // shows file wit conflicts 
 
 
