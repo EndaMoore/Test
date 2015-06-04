@@ -57,3 +57,14 @@ git remote -v
 git push origin master //this will push all files to Github username and password required 
 
 git pull origin master // get repo from Github
+
+//do git add and git commit on local branch then push to GitHub
+
+git branch -a
+git fetch origin
+git diff origin/master master
+git merge master origin/master
+
+git pull origin master
+
+git push origin master
