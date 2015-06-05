@@ -1,4 +1,4 @@
-git help
+git git help
 git log
 git status
 
@@ -67,4 +67,25 @@ git merge master origin/master
 
 git pull origin master
 
+
+
+
 git push origin master
+
+***// New branch with pull requests //***
+
+git branch different-oil
+git checkout different-oil
+//make changes
+git add ***.txt
+git commit
+git push origin different-oil
+
+
+git pull origin master // or git merge origin/master master
+
+git push origin different-oil //upload to Github and merge
+
+
+//to switch to another branch *** 
+git checkout <branch name>
