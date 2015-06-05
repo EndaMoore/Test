@@ -89,3 +89,10 @@ git push origin different-oil //upload to Github and merge
 
 //to switch to another branch *** 
 git checkout <branch name>
+
+//cd to dir then 
+git pull origin master
+// do work when finished 
+git add *files*
+git commit
+git push origin master
