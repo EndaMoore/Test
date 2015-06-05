@@ -96,3 +96,20 @@ git pull origin master
 git add *files*
 git commit
 git push origin master
+
+***//Additional work flow example//***
+
+copy url from github repository 
+git remote add upstream http://github.com/...
+git checkout master
+git pull upstream master
+git log // to check what changes were made
+git checkout stop-drop-rool
+git merge master stop-drop-rool
+//fix merge conflict
+git add //file...
+git commit
+git push origin stop-drop-rool // to push branch to fork
+// origin used because you do not have permision to pust to the origional repository
+git checkout master
+git push
