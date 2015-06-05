@@ -110,6 +110,6 @@ git merge master stop-drop-rool
 git add //file...
 git commit
 git push origin stop-drop-rool // to push branch to fork
-// origin used because you do not have permision to pust to the origional repository
+// origin used because you do not have permission to push to the original repository
 git checkout master
 git push
