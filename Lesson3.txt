@@ -1,6 +1,0 @@
-lesson 3 
-test from Github to mac
-
-When would you want to use a remote repository rather than keeping all your work local?
-
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
